@@ -1,0 +1,75 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationBarBackgroundColor": "#0a121e",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#0a121e"
+      }
+    },
+    {
+      "path": "pages/schedule/schedule",
+      "style": {
+        "navigationBarTitleText": "赛程",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0a121e"
+      }
+    },
+    {
+      "path": "pages/ranking/ranking",
+      "style": {
+        "navigationBarTitleText": "预测排行",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0a121e"
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "关于",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0f171e"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "足球小程序",
+    "navigationBarBackgroundColor": "#0a121e",
+    "backgroundColor": "#0a121e"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#0a121e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "text": "赛程",
+        "iconPath": "static/tabbar/schedule.png",
+        "selectedIconPath": "static/tabbar/schedule-active.png"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "预测排行",
+        "iconPath": "static/tabbar/ranking.png",
+        "selectedIconPath": "static/tabbar/ranking-active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "static/tabbar/about.png",
+        "selectedIconPath": "static/tabbar/about-active.png"
+      }
+    ]
+  }
+}
